@@ -1,0 +1,8 @@
+#whoareweright{
+    flex-direction: row-reverse !important;
+}
+#whoarewe-right{
+    text-align:right;
+    min-height: 0px;
+
+}
