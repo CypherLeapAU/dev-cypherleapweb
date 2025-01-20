@@ -23,4 +23,31 @@
     #new-logo{
         width: 50%;
     }
+    .btn-shape path{
+        width:5em;
+    }
+    .blc-btn{
+        padding:20px !important;
+    }
+    .cs-feature{
+        margin-top:-75px;
+    }
+    #hero-title{
+        font-size:5vh;
+    }
+}
+@media(max-width:992px){
+    #new-logo {
+        width: 65%;
+    }
+    .xb-header{
+        padding-top:1em;
+        padding-bottom:1em;
+    }
+}
+#c-logo-hero{
+    left: 51% !important;
+}
+.hero-style-three .xb-hero .xb-item--title{
+    letter-spacing:.1em !important;
 }
