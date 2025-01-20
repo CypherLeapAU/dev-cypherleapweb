@@ -14,3 +14,13 @@
     margin-left:3%;
     margin-right:3%;
 }
+
+#new-logo{
+    width: 23%;
+}
+
+@media(max-width: 769px){
+    #new-logo{
+        width: 50%;
+    }
+}
