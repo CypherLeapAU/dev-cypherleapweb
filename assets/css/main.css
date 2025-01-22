@@ -6000,7 +6000,7 @@ body[data-aos-easing=ease] [data-aos] {
   .cs-service-item:hover .border-bg2 {
     opacity: 1; }
   .cs-service-item:hover .xb-item--icon::before {
-    background: linear-gradient(179deg, #431dab 0%, #010315 100%); }
+    background: linear-gradient(179deg, #9042c1 0%, #3c116d 100%); }
   .cs-service-item:hover .xb-item--icon img {
     transform: rotateY(360deg); }
 

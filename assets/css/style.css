@@ -18,7 +18,24 @@
 #new-logo{
     width: 23%;
 }
+.thm-btn--aso::before {
+    background:none  !important;
+}
 
+.thm-btn--aso {
+    background-color: #9741ac !important;
+}
+.mega_menu_wrapper .iconbox_block_2:hover {
+    background-color: #f6e8ff !important;
+}
+.mega_menu_wrapper .iconbox_block_2:hover .iconbox_title:hover{
+    color:#9741ac !important;
+}
+#sociallinks{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
 @media(max-width: 769px){
     #new-logo{
         width: 50%;
@@ -35,14 +52,23 @@
     #hero-title{
         font-size:5vh;
     }
+    .cs-about_right .xb-content{
+        height:50%;
+    }
+    .service{
+        padding-top:0px;
+    }
+    .contact{
+        padding-top: 0px;
+    }
 }
 @media(max-width:992px){
     #new-logo {
         width: 65%;
     }
     .xb-header{
-        padding-top:1em;
-        padding-bottom:1em;
+        padding-top:0.5em;
+        padding-bottom:0.5em;
     }
 }
 #c-logo-hero{
