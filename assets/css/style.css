@@ -81,5 +81,10 @@
     color:white !important;
 }
 #services-sub-title{
-    color:#6c3bac !important;
+    color:#5a23a1 !important;
+}
+#stickyheader{
+    background-color:#010315 !important;
+    padding-top: 0.2em;
+    padding-bottom: .2em;
 }
