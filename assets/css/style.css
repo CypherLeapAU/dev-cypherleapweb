@@ -37,7 +37,7 @@
     flex-direction: column;
 }
 #framework-head{
-    margin-top:0px !important;
+    margin-top:2rem !important;
 }
 @media(max-width: 769px){
     #new-logo{
@@ -135,6 +135,9 @@
 }
 .megha_menu-wrapper .iconbox_title:hover{
 color:blue !important;
+}
+.slick-track{
+    padding-top:1rem;
 }
 @media(min-width:993px){
     #stickyheader {
