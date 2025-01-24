@@ -83,6 +83,10 @@
         padding-top:0.5em;
         padding-bottom:0.5em;
     }
+    .item-contact_form {
+         margin-right: 0px;
+         padding: 40px 20px 50px;
+    }
 }
 #c-logo-hero{
     left: 51% !important;
@@ -114,10 +118,20 @@
 #get-started-sticky:hover{
     color:white;
 }
+#contact-button{
+    color: var(--color-black);
+    background:#8f3dbe !important;
+}
+.social_icons_block li a:hover {
+    color: var(--color-white);
+    border: 1px solid #8f3dbe;
+    background:#8f3dbe;
+}
 @media(min-width:993px){
     #stickyheader {
         background-color: #010315 !important;
         padding-top: 1.2em;
         padding-bottom: 1.2em;
     }
+    
 }
