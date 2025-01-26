@@ -24,6 +24,7 @@
 
 .thm-btn--aso {
     background-color: #9741ac !important;
+    color: #f8d9ff;
 }
 .mega_menu_wrapper .iconbox_block_2:hover {
     background-color: #f6e8ff !important;
@@ -119,8 +120,11 @@
     color:white;
 }
 #contact-button{
-    color: var(--color-black);
-    background:#8f3dbe !important;
+    color: white;
+    background:#9741ac !important;
+}
+#contact-button a{
+    color:white;
 }
 .social_icons_block li a:hover {
     color: var(--color-white);
