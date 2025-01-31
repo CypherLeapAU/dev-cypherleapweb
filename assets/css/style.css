@@ -158,6 +158,16 @@ color:blue !important;
 .who-are-we-landing-image{
     height:30%;
 }
+#capabh4 h5{
+    padding-top:3rem;
+}
+.team-item .xb-item--avatar {
+    border:none !important;
+    border-radius: none;
+    box-shadow: none;
+}
+
+
 @media(min-width:993px){
     #stickyheader {
         background-color: #010315 !important;
@@ -165,4 +175,12 @@ color:blue !important;
         padding-bottom: 1.2em;
     }
     
+}
+@media(min-width:420px) and (max-width:768px){
+#framework{
+    margin-left:20px;
+}
+.brand-items{
+    padding-top:20px;
+}
 }
