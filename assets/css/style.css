@@ -78,6 +78,11 @@
     .ap-award-inner:not(:last-child) {
         margin-right: 20px;
     }
+    #protecting-what-matters p{
+        font-size:16px;
+        font-weight: 500;
+        line-height: 25px;
+    }
 }
 @media(max-width:992px){
     #new-logo {
@@ -201,4 +206,13 @@ color:blue !important;
 .brand-items{
     padding-top:20px;
 }
+}
+#protecting-what-matters{
+    flex-direction: column;
+}
+#protecting-what-matters p{
+    letter-spacing: 1px;
+}
+#your-org{
+    max-width:950px;
 }
