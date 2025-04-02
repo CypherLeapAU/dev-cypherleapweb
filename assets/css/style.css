@@ -228,3 +228,6 @@ color:blue !important;
     margin: 37px 0 30px;
     margin-left: -12px;
 }
+#alignpara{
+    text-align: justify;
+}
