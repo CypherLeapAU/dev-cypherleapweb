@@ -198,6 +198,9 @@ color:blue !important;
         padding-top: 1.2em;
         padding-bottom: 1.2em;
     }
+    #iconsup{
+        align-items: start;
+    }
     
 }
 @media(min-width:420px) and (max-width:768px){
@@ -220,4 +223,21 @@ color:blue !important;
 
 #font{
     font-size: 12px;
+}
+.item-contact_info .social_icons_block {
+    margin: 37px 0 30px;
+    margin-left: -12px;
+}
+#alignpara{
+    text-align: justify;
+}
+
+#updated-footer{
+    font-family: var(--font-heading-two) !important;
+    color:#fff !important;
+    font-size: 20px !important;
+}
+#updated-footer-body{
+    font-family: arial;
+    font-size: 17px;
 }
