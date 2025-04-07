@@ -231,3 +231,13 @@ color:blue !important;
 #alignpara{
     text-align: justify;
 }
+
+#updated-footer{
+    font-family: var(--font-heading-two) !important;
+    color:#fff !important;
+    font-size: 20px !important;
+}
+#updated-footer-body{
+    font-family: arial;
+    font-size: 17px;
+}
