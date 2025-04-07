@@ -241,3 +241,12 @@ color:blue !important;
     font-family: arial;
     font-size: 17px;
 }
+.gpdrp{
+    color: #6c757d;
+    font-size: 12px;
+    font-weight: 450;
+}
+.gpdrp a{
+    color:#a9aaac;
+    font-weight: 600;
+}
