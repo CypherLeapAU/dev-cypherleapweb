@@ -1048,7 +1048,7 @@
                                             </span>
                                         </button>
                                     </div>
-                                </form><br><br>
+                                </form><br>
                                 <div id="formStatus" style="margin-bottom:1em;"></div>
                             </div>
                         </div>
@@ -1163,7 +1163,7 @@
         .then(res => res.json())
         .then(json => {
           if (json.status === 'success') {
-            status.style.color = 'purple';
+            status.style.color = '#9654bc';
             status.style.fontFamily = 'Inter'
             status.style.fontWeight = '600'
             status.textContent = json.message || 'Thank you! We will be in touch.';
