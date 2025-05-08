@@ -983,7 +983,7 @@
                                             <div class="input-field">
                                                 <label for="text1">Your name</label>
                                                 <div class="input-box">
-                                                    <input type="text" name="name" id="text1">
+                                                    <input type="text" name="name" id="text1" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -991,7 +991,7 @@
                                             <div class="input-field">
                                                 <label for="text2">Email</label>
                                                 <div class="input-box">
-                                                    <input type="email" name="email" id="text2">
+                                                    <input type="email" name="email" id="text2" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -999,7 +999,7 @@
                                             <div class="input-field">
                                                 <label for="text3">Phone</label>
                                                 <div class="input-box">
-                                                    <input type="tel" name="phone" id="text3">
+                                                    <input type="tel" name="phone" id="text3" required>
                                                 </div>
                                             </div>
                                         </div>
@@ -1007,7 +1007,7 @@
                                             <div class="input-field">
                                                 <label for="text4">Company name</label>
                                                 <div class="input-box">
-                                                    <input type="text" name="company" id="text4">
+                                                    <input type="text" name="company" id="text4"required>
                                                 </div>
                                             </div>
                                         </div>
@@ -1015,7 +1015,7 @@
                                             <div class="input-field text-field">
                                                 <label for="text5">How can we help you today?</label>
                                                 <div class="input-box">
-                                                    <textarea name="message" id="text5"></textarea>
+                                                    <textarea name="message" id="text5" required></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -1048,7 +1048,7 @@
                                             </span>
                                         </button>
                                     </div>
-                                </form>
+                                </form><br><br>
                                 <div id="formStatus" style="margin-bottom:1em;"></div>
                             </div>
                         </div>
@@ -1163,8 +1163,9 @@
         .then(res => res.json())
         .then(json => {
           if (json.status === 'success') {
-            status.style.color = 'green';
+            status.style.color = 'purple';
             status.style.fontFamily = 'Inter'
+            status.style.fontWeight = '600'
             status.textContent = json.message || 'Thank you! We will be in touch.';
             form.reset();
           } else {
