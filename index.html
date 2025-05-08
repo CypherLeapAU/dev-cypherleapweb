@@ -977,13 +977,13 @@
                                     <span class="sub-title"><img src="assets/img/icon/bill.svg" alt=""><span>Let’s connect!</span></span>
                                     <h2 class="title">Send us a message, and we’ll get back to you shortly.</h2>
                                 </div>
-                                <form action="#!" class="contact-form">
+                                <form action="enquiry.php" class="contact-form" method="post">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="input-field">
                                                 <label for="text1">Your name</label>
                                                 <div class="input-box">
-                                                    <input type="text" name="text" id="text1">
+                                                    <input type="text" name="name" id="text1">
                                                 </div>
                                             </div>
                                         </div>
@@ -991,7 +991,7 @@
                                             <div class="input-field">
                                                 <label for="text2">Email</label>
                                                 <div class="input-box">
-                                                    <input type="email" name="gmail" id="text2">
+                                                    <input type="email" name="email" id="text2">
                                                 </div>
                                             </div>
                                         </div>
@@ -999,7 +999,7 @@
                                             <div class="input-field">
                                                 <label for="text3">Phone</label>
                                                 <div class="input-box">
-                                                    <input type="tel" name="number" id="text3">
+                                                    <input type="tel" name="phone" id="text3">
                                                 </div>
                                             </div>
                                         </div>
@@ -1007,7 +1007,7 @@
                                             <div class="input-field">
                                                 <label for="text4">Company name</label>
                                                 <div class="input-box">
-                                                    <input type="text" name="text" id="text4">
+                                                    <input type="text" name="company" id="text4">
                                                 </div>
                                             </div>
                                         </div>
@@ -1144,38 +1144,7 @@
 <script src="assets/js/jquery.marquee.min.js"></script>
 <script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script src="assets/js/main.js"></script>
-<script>
-    document.getElementById("contact-form").addEventListener("submit", function(e) {
-        e.preventDefault();
-    
-        const form = this;
-        const formData = new FormData(form);
-        const feedback = document.getElementById("feedback-message");
-    
-        fetch(form.action, {
-            method: "POST",
-            body: formData
-        })
-        .then(res => res.text())
-        .then(response => {
-            if (response.trim() === "success") {
-                feedback.style.color = "green";
-                feedback.textContent = "Message sent successfully!";
-            } else {
-                feedback.style.color = "red";
-                feedback.textContent = "Something went wrong. Please try again.";
-            }
-            feedback.style.display = "block";
-            form.reset();
-        })
-        .catch(() => {
-            feedback.style.color = "red";
-            feedback.textContent = "Server error. Please try later.";
-            feedback.style.display = "block";
-        });
-    });
-    </script>
-    <br>
+
 </body>
 
 </html>
