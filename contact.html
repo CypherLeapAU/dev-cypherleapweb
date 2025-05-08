@@ -384,13 +384,13 @@
                         <div class="cs-contact-wrap cs-contact-form cd-contact-form item-contact_form">
                             <h2 class="xb-title">Send us a message</h2>
                             <p class="xb-content">Let us help protect your business and elevate your cybersecurity. Get in touch to discuss how we can help secure your digital assets</p>
-                            <form action="/contact/send_email.php" method="POST" class="contact-form" id="contact-form">
+                            <form action="send_email.php" method="POST" class="contact-form" id="contact-form">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="input-field">
                                             <label for="text1">Name*</label>
                                             <div class="input-box">
-                                                <input type="text" name="text" id="text1">
+                                                <input type="text" name="text" id="text1" required>
                                             </div>
                                         </div>
                                     </div>
@@ -398,7 +398,7 @@
                                         <div class="input-field">
                                             <label for="text2">Email*</label>
                                             <div class="input-box">
-                                                <input type="email" name="gmail" id="text2">
+                                                <input type="email" name="gmail" id="text2" required>
                                             </div>
                                         </div>
                                     </div>
@@ -406,7 +406,7 @@
                                         <div class="input-field">
                                             <label for="text3">Phone*</label>
                                             <div class="input-box">
-                                                <input type="tel" name="number" id="text3">
+                                                <input type="tel" name="number" id="text3" required>
                                             </div>
                                         </div>
                                     </div>
@@ -414,7 +414,7 @@
                                         <div class="input-field text-field">
                                             <label for="text5">Message</label>
                                             <div class="input-box">
-                                                <textarea name="massage" id="text5"></textarea>
+                                                <textarea name="massage" id="text5" required></textarea>
                                             </div>
                                         </div>
                                     </div>
@@ -427,39 +427,7 @@
                                 <div id="feedback-message" style="margin-top: 20px; display: none;"></div>
                             </form>
                             
-                            <script>
-                                document.getElementById('contact-form').addEventListener('submit', function(event) {
-                                    event.preventDefault(); // Prevent default form submission
                             
-                                    const form = event.target;
-                                    const formData = new FormData(form);
-                            
-                                    fetch(form.action, {
-                                        method: 'POST',
-                                        body: formData
-                                    })
-                                    .then(response => response.text())
-                                    .then(result => {
-                                        const feedback = document.getElementById('feedback-message');
-                                        if (result.trim() === 'success') {
-                                            feedback.style.color = 'green';
-                                            feedback.textContent = 'Our team will get in touch with you soon!';
-                                            feedback.style.display = 'block';
-                                            form.reset(); // Reset the form fields
-                                        } else {
-                                            feedback.style.color = 'red';
-                                            feedback.textContent = 'Something went wrong. Please try again later.';
-                                            feedback.style.display = 'block';
-                                        }
-                                    })
-                                    .catch(error => {
-                                        const feedback = document.getElementById('feedback-message');
-                                        feedback.style.color = 'red';
-                                        feedback.textContent = 'There was an error submitting the form. Please try again.';
-                                        feedback.style.display = 'block';
-                                    });
-                                });
-                            </script>
                             
                         </div>
                     </div>
