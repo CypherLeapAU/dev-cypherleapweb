@@ -977,7 +977,7 @@
                                     <span class="sub-title"><img src="assets/img/icon/bill.svg" alt=""><span>Let’s connect!</span></span>
                                     <h2 class="title">Send us a message, and we’ll get back to you shortly.</h2>
                                 </div>
-                                <form action="enquiry.php" class="contact-form" method="post">
+                                <form action="enquiry.php" class="contact-form" method="post" id="contactForm">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="input-field">
@@ -1144,7 +1144,41 @@
 <script src="assets/js/jquery.marquee.min.js"></script>
 <script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script src="assets/js/main.js"></script>
-
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form   = document.getElementById('contactForm');
+      const status = document.getElementById('formStatus');
+    
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();              // stop the normal POST
+        status.textContent = 'Sending…'; // give user feedback
+    
+        const data = new FormData(form);
+    
+        fetch(form.action, {
+          method:  'POST',
+          body:    data,
+        })
+        .then(res => res.json())
+        .then(json => {
+          if (json.status === 'success') {
+            status.style.color = 'green';
+            status.textContent = json.message || 'Thank you! We will be in touch.';
+            form.reset();
+          } else {
+            status.style.color = 'red';
+            status.textContent = json.message || 'Oops—there was a problem.';
+          }
+        })
+        .catch(err => {
+          console.error(err);
+          status.style.color = 'red';
+          status.textContent = 'Network error—please try again.';
+        });
+      });
+    });
+    </script>
+    
 </body>
 
 </html>
