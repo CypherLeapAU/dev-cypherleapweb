@@ -1153,6 +1153,7 @@
       form.addEventListener('submit', function(e) {
         e.preventDefault();              // stop the normal POST
         status.textContent = 'Sending…'; // give user feedback
+        status.style.color = '#9654bc';
     
         const data = new FormData(form);
     
@@ -1166,7 +1167,7 @@
             status.style.color = '#9654bc';
             status.style.fontFamily = 'Inter'
             status.style.fontWeight = '600'
-            status.textContent = json.message || 'Thank you! We will be in touch.';
+            status.textContent = json.message || 'Thank you! We will be in touch with you shortly.';
             form.reset();
           } else {
             status.style.color = 'red';
