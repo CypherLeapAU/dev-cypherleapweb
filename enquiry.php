@@ -100,3 +100,4 @@ if ($httpCode === 201) {
         'detail'=> json_decode($response, true)
     ]);
 }
+file_put_contents(__DIR__ . '/env_debug.log', "BREVO_API_KEY=[{$apiKey}]\n", FILE_APPEND);
