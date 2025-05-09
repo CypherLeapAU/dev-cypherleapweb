@@ -55,7 +55,7 @@ if (!$name || !$email || !$phone || !$message) {
 $payload = [
     'sender'      => ['name' => $fromName, 'email' => $fromEmail],
     'to'          => [['email'=> $toEmail,   'name'  => $toName]],
-    'subject'     => '📩 New message from contact form',
+    'subject'     => '📩 Form Submission - Contact Us',
     'htmlContent' => "
       <h2>New contact form submission</h2>
       <p><strong>Name:</strong> {$name}</p>
