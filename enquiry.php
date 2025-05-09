@@ -96,8 +96,7 @@ if ($httpCode === 201) {
     http_response_code($httpCode);
     echo json_encode([
         'status'=>'error',
-        'message'=>"Brevo API returned HTTP {$httpCode}",
+        'message'=>"Oops! Something went wrong. We’re fixing it now {$httpCode}",
         'detail'=> json_decode($response, true)
     ]);
 }
-file_put_contents(__DIR__ . '/env_debug.log', "BREVO_API_KEY=[{$apiKey}]\n", FILE_APPEND);
