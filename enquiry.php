@@ -91,7 +91,7 @@ if ($curlError) {
 }
 
 if ($httpCode === 201) {
-    echo json_encode(['status'=>'success','message'=>'Thank you! We will be in touch.']);
+    echo json_encode(['status'=>'success','message'=>'Thank you! We will be in touch with you soon.']);
 } else {
     http_response_code($httpCode);
     echo json_encode([
