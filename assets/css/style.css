@@ -96,6 +96,19 @@
          margin-right: 0px;
          padding: 40px 20px 50px;
     }
+    #whr-card{
+        padding-left: 2rem;
+    }
+    .ap-feature-item{
+        max-width: 330px;
+    }
+    .page-title{
+        padding-top: 100px !important;
+    }
+    #team-img-mob{
+        height:114px;
+        width:114px;
+    }
 }
 #c-logo-hero{
     left: 51% !important;
