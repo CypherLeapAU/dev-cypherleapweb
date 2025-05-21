@@ -54,7 +54,8 @@
         margin-top:-75px;
     }
     #hero-title{
-        font-size:5vh;
+        font-size:2rem;
+        font-weight: 300;
     }
     .cs-about_right .xb-content{
         height:50%;
@@ -84,6 +85,7 @@
         line-height: 25px;
     }
 }
+
 @media(max-width:992px){
     #new-logo {
         width: 65%;
@@ -201,15 +203,27 @@ color:blue !important;
     #iconsup{
         align-items: start;
     }
+
+    .hero-style-three .xb-hero .xb-item--title {
+        font-size: 130px !important;
+    }
     
 }
-@media(min-width:420px) and (max-width:768px){
-#framework{
-    margin-left:20px;
-}
-.brand-items{
-    padding-top:20px;
-}
+@media(min-width:420px) and (max-width:992px){
+    #framework{
+        margin-left:20px;
+    }
+    .brand-items{
+        padding-top:20px;
+    }
+    .hero-style-three .xb-hero .xb-item--title {
+        font-size: 4.5em !important;
+    }
+    .hero-style-three .xb-hero .xb-item--content {
+        font-size: 20px !important;
+        line-height: 35px;
+    }
+
 }
 #protecting-what-matters{
     flex-direction: column;
@@ -252,4 +266,17 @@ color:blue !important;
 .gpdrp a{
     color:#a9aaac;
     font-weight: 600;
+}
+
+.hero-style-three .xb-hero .xb-item--content {
+    font-size: 25px;
+    text-align: center;
+}
+
+@media(max-width: 415px){
+    #protecting-what-matters p {
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 20px;
+    }
 }
