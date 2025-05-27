@@ -301,6 +301,9 @@ color:blue !important;
         font-weight: 600;
         font-size: 14px !important;
     }
+    .xb-header-menu{
+        width:-webkit-fill-available !important;
+    }
 
     
     
