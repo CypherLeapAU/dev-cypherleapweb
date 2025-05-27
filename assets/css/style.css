@@ -48,7 +48,7 @@
         width:5em;
     }
     .blc-btn{
-        padding:20px !important;
+        padding:15px !important;
     }
     .cs-feature{
         margin-top:-75px;
@@ -297,4 +297,11 @@ color:blue !important;
         font-weight: 300;
         line-height: 20px;
     }
+    .landbut{
+        font-weight: 600;
+        font-size: 14px !important;
+    }
+
+    
+    
 }
