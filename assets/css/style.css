@@ -26,6 +26,10 @@
     background-color: #5e1dab !important;
     color: #f8d9ff;
 }
+
+.thm-btn.thm-btn--aso.megamenu-btn:hover {
+    color: #fff7ff !important;
+}
 .mega_menu_wrapper .iconbox_block_2:hover {
     background-color: #f6e8ff !important;
 }

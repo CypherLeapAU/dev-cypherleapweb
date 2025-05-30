@@ -3706,7 +3706,7 @@ body[data-aos-easing=ease] [data-aos] {
   font-weight: 700 !important;
   line-height: 1.3 !important; }
   .megamenu-btn:hover {
-    color: var(--color-heading-two) !important; }
+    color: #fff7ff !important; }
 
 @media (max-width: 1199px) {
   .megamenu_pages_wrapper {
@@ -13322,7 +13322,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
       -o-transition: 0.3s;
       transition: 0.3s; }
     .thm-btn--aso:hover {
-      color: var(--color-heading-two);
+      color: #fff7ff;
       transform: translateY(-2px); }
       .thm-btn--aso:hover::before {
         bottom: -70%; }
