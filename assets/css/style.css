@@ -133,7 +133,6 @@
 }
 
 .mega-menu-content {
-    margin-top: 25px;
     margin-left: 10px;
     flex-grow: 1;
     position: relative;
@@ -655,4 +654,16 @@ color:blue !important;
 }
 .navplus{
     padding-right: 5px;
+}
+.cs-service-item a{
+    color:white !important;
+}
+.cs-service-item h3 {
+    font-size: 21px !important;
+}
+body{
+    scroll-behavior: smooth;
+}
+.blc-btn{
+    font-size:15px !important;
 }
