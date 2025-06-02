@@ -28,6 +28,37 @@
 			$("html,body").animate({ scrollTop: 0 }, "slow");
 			return false
 		});
+
+		// Add smooth scrolling to all links that point to an ID
+		$("a[href^='#']:not(.scroll)").on('click', function(event) {
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+				// Prevent default anchor click behavior
+				event.preventDefault();
+
+				// Store hash
+				var hash = this.hash;
+
+				// Using jQuery's animate() method to add smooth page scroll
+				$("html, body").animate({
+					scrollTop: $(hash).offset().top
+				}, 800, function(){
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				});
+			}
+		});
+
+		// Add smooth scrolling for path elements and other clickable elements that navigate to sections
+		$("path, [data-scroll-to]").on('click', function() {
+			var targetSection = $(this).attr("data-scroll-to") || $(this).closest("a").attr("href");
+			if (targetSection && targetSection.startsWith("#")) {
+				event.preventDefault();
+				$("html, body").animate({
+					scrollTop: $(targetSection).offset().top
+				}, 800);
+			}
+		});
 	});
 
 	 // Sticky Header - Start

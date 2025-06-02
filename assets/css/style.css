@@ -26,8 +26,6 @@
     background-color: #5e1dab !important;
     color: #f8d9ff;
 }
-
-
 .mega_menu_wrapper .iconbox_block_2:hover {
     background-color: #f6e8ff !important;
 }
@@ -135,7 +133,6 @@
 }
 
 .mega-menu-content {
-    margin-top: 25px;
     margin-left: 10px;
     flex-grow: 1;
     position: relative;
@@ -647,4 +644,3 @@ color:blue !important;
 .navplus{
     padding-right: 5px;
 }
-
