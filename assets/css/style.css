@@ -671,3 +671,11 @@ body{
 .blc-btn{
     font-size:15px !important;
 }
+@media (max-width: 1199px) {
+    .cs-about_right {
+        max-width: none;
+        margin-left:none;
+        margin-right:none;
+
+    }
+}
