@@ -913,7 +913,7 @@
 	= marquee
 	-------------------------------------------*/
 	$('.marquee-left').marquee({
-		speed: 20,
+		speed: 50,
 		gap: 0,
 		delayBeforeStart: 0,
 		direction: 'left',

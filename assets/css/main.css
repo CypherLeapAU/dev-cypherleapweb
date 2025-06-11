@@ -5029,14 +5029,12 @@ body[data-aos-easing=ease] [data-aos] {
     z-index: 1;
     height: 100%;
     width: 160px;
-    background-image: url(../img/shape/da-gradient01.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
   .da-brand_inner::after {
     right: 0;
     left: auto;
-    background-image: url(../img/shape/da-gradient02.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -15186,5 +15184,6 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     color: #fff; }
     .hds-footer-links li a:hover {
       text-decoration: underline; }
+
 
 /*# sourceMappingURL=main.css.map */
