@@ -5985,7 +5985,9 @@ body[data-aos-easing=ease] [data-aos] {
     z-index: 1;
     position: relative; }
   .cs-service-item .xb-item--title {
-    margin: 25px 0 20px; }
+    margin: 25px 0 20px;
+    font-size: 21px;
+  }
   .cs-service-item .xb-item--item li {
     color: #a9a4c0; }
     .cs-service-item .xb-item--item li:not(:last-child) {
