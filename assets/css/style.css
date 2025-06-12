@@ -765,6 +765,14 @@
         width: 350px;
         height: 100px;
     }
+    #landingmob{
+        display:none !important;
+    }    
+}
 
-    
+
+@media (max-width:1199px){
+    #landingcomp{
+        display:none !important;
+    }
 }
