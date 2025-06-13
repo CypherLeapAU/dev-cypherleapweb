@@ -11351,7 +11351,7 @@ body[data-aos-easing=ease] [data-aos] {
     margin-bottom: 20px; }
     .item-details-widget p a {
       color: currentColor;
-      text-decoration: underline; }
+       }
     .item-details-widget p .details-link {
       font-weight: 700; }
 
