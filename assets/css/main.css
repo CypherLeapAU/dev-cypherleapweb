@@ -5045,7 +5045,8 @@ body[data-aos-easing=ease] [data-aos] {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-right: 1px solid #d5dcf7; }
+  
+  }
 
 .da-brand_wrapper {
   text-align: center; }
