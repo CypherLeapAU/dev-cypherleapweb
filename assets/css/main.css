@@ -5045,7 +5045,8 @@ body[data-aos-easing=ease] [data-aos] {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border-right: 1px solid #d5dcf7; }
+  
+  }
 
 .da-brand_wrapper {
   text-align: center; }
@@ -5985,7 +5986,9 @@ body[data-aos-easing=ease] [data-aos] {
     z-index: 1;
     position: relative; }
   .cs-service-item .xb-item--title {
-    margin: 25px 0 20px; }
+    margin: 25px 0 20px;
+    font-size: 21px;
+  }
   .cs-service-item .xb-item--item li {
     color: #a9a4c0; }
     .cs-service-item .xb-item--item li:not(:last-child) {
@@ -11349,7 +11352,7 @@ body[data-aos-easing=ease] [data-aos] {
     margin-bottom: 20px; }
     .item-details-widget p a {
       color: currentColor;
-      text-decoration: underline; }
+       }
     .item-details-widget p .details-link {
       font-weight: 700; }
 
