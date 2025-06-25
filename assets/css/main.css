@@ -8897,7 +8897,7 @@ body[data-aos-easing=ease] [data-aos] {
     opacity: 1;
     background: #fff; }
     .blog-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-      background: var(--color-yellow); }
+      background: #5e1dab ; }
 
 .blog-item_button .blog-swiper-btn {
   position: absolute;
@@ -8949,7 +8949,7 @@ body[data-aos-easing=ease] [data-aos] {
         width: 100%;
         padding: 35px 20px 45px; } }
   .blog_details_item .xb-item--text {
-    color: #0f55dc;
+    color:  #33066f;
     font-weight: 600;
     text-transform: uppercase; }
   .blog_details_item .xb-item--title {
@@ -8974,7 +8974,7 @@ body[data-aos-easing=ease] [data-aos] {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-    background: var(--color-primary-two); }
+    background:  #5e1dab; }
     .blog_details_item .xb-item--button a i {
       margin-left: 15px;
       -webkit-transition: 0.3s;
@@ -8982,7 +8982,7 @@ body[data-aos-easing=ease] [data-aos] {
       transition: 0.3s;
       transform: rotate(-45deg); }
     .blog_details_item .xb-item--button a:hover {
-      background-color: var(--color-yellow);
+      background-color: #f8d9ff;
       color: var(--color-heading-two); }
       .blog_details_item .xb-item--button a:hover i {
         transform: rotate(0deg); }
@@ -11623,7 +11623,7 @@ body[data-aos-easing=ease] [data-aos] {
     align-items: center;
     justify-content: center;
     border-radius: 0 10px 10px 0;
-    background: var(--color-primary-two); }
+    background: #5e1dab; }
 
 .recent_post_block .recent_post_item {
   padding: 25px 30px;
@@ -11677,7 +11677,7 @@ body[data-aos-easing=ease] [data-aos] {
         transition: 0.3s;
         transform: rotate(-45deg); }
   .category_list_block a:hover span {
-    color: var(--color-primary-two); }
+    color: #5e1dab; }
     .category_list_block a:hover span:first-child {
       transform: translateX(0px); }
       .category_list_block a:hover span:first-child i {
@@ -11704,8 +11704,8 @@ body[data-aos-easing=ease] [data-aos] {
     background: var(--color-white); }
   .tags_block li:hover a {
     color: var(--color-white);
-    border: 1px solid #0f55dc;
-    background: var(--color-primary-two); }
+    border: 1px #5e1dab;
+    background: #5e1dab; }
 
 /*----------------------------------------*/
 /*  03. globel
