@@ -9,7 +9,7 @@ function performSearch() {
     if (input === "") return;
 
     // Grab data from existing HTML blog items
-    const allBlogItems = document.querySelectorAll(".blog-slide-item, .blog_details_item");
+    const allBlogItems = document.querySelectorAll(".blog-slide-item, .blog_details_item, .recent_post_item, .blog-details_wrap");
 
     const results = [];
 
