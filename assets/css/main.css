@@ -6250,6 +6250,7 @@ body[data-aos-easing=ease] [data-aos] {
 .sd-process_inner {
   margin-top: 63px;
   padding: 10px 0 50px;
+  gap: 105px;
   position: relative; }
   .sd-process_inner .sd-shape {
     position: absolute;
